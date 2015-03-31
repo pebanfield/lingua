@@ -1,0 +1,69 @@
+{
+  "book": {
+    "title": "Cinq Semaines En Ballon",
+    "id": "5semainesBallon-verne-francais",
+    "author": "Jules Verne",
+    "language": "Francais",
+    "copyrigth": "publicdomain",
+    "year": 1863,
+    "translation": false,
+    "chapters": [
+      {
+        "title": "CHAPITRE PREMIER",
+        "id": "c1"
+      },
+      {
+        "title": "CHAPTER SECOND.",
+        "id": "c2",
+        "description": "The Article in the Daily Telegraph.--War between the Scientific Journals.-- Mr. Petermann backs his Friend Dr. Ferguson.--Reply of the Savant Koner. --Bets made.--Sundry Propositions offered to the Doctor.",
+        "paragraphs": [
+          {
+            "body": ""
+          },
+          {
+            "body": ""
+          }
+        ]
+      },
+      {
+        "title": "CHAPTER THIRD.",
+        "id": "c3",
+        "description": "The Doctor's Friend.--The Origin of their Friendship.--Dick Kennedy at London. --An unexpected but not very consoling Proposal.--A Proverb by no means cheering.--A few Names from the African Martyrology.--The Advantages of a Balloon.--Dr. Ferguson's Secret.",
+        "paragraphs": [
+          {
+            "body": ""
+          },
+          {
+            "body": ""
+          }
+        ]
+      },
+      {
+        "title": "CHAPTER FOURTH.",
+        "id": "c4",
+        "description": "African Explorations.--Barth, Richardson, Overweg, Werne, Brun-Rollet, Penney, Andrea, Debono, Miani, Guillaume Lejean, Brace, Krapf and Rebmann, Maizan, Roscher, Burton and Speke.",
+        "paragraphs": [
+          {
+            "body": ""
+          },
+          {
+            "body": ""
+          }
+        ]
+      },
+      {
+        "title": "CHAPTER FOURTH.",
+        "id": "c5",
+        "description": "African Explorations.--Barth, Richardson, Overweg, Werne, Brun-Rollet, Penney, Andrea, Debono, Miani, Guillaume Lejean, Brace, Krapf and Rebmann, Maizan, Roscher, Burton and Speke.",
+        "paragraphs": [
+          {
+            "body": ""
+          },
+          {
+            "body": ""
+          }
+        ]
+      }
+    ]
+  }
+}
