@@ -1,16 +1,17 @@
 {
-  "book": {
+  "translation": {
     "title": "Cinq Semaines En Ballon",
-    "id": "5semainesBallon-verne-francais",
+    "id": "Cinq_Semaines_En_Ballon",
     "author": "Jules Verne",
-    "language": "Francais",
+    "language": "francais",
     "copyrigth": "publicdomain",
     "year": 1863,
     "translation": false,
     "chapters": [
       {
         "title": "CHAPITRE PREMIER",
-        "id": "c1"
+        "id": "c1",
+        "url": ""
       },
       {
         "title": "CHAPTER SECOND.",

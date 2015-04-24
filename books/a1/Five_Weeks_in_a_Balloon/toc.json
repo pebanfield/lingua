@@ -1,9 +1,9 @@
 {
-  "book": {
+  "translation": {
     "title": "Five Weeks in a Balloon",
     "author": "Jules Verne",
-    "id": "5weeksBalloon-verne-english",
-    "language": "English",
+    "id": "Five_Weeks_in_a_Balloon",
+    "language": "english",
     "copyrigth": "publicdomain",
     "year": 1869,
     "translation": true,
