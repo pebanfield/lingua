@@ -5,12 +5,12 @@ var cors = require('cors');
 
 module.exports = function(app) {
 
-  app.route('/books')
+  app.route('/catalog')
     .get(cors(), books.getCatalog);
-  app.route('/books/:id')
+  app.route('/catalog/books/:id')
     .get(cors(), books.getBook);
-  app.route('/books/:bookId/trans/:transId')
+  app.route('/catalog/books/:bookId/trans/:transId')
     .get(cors(), books.getTranslation);
-  app.route('/books/:bookId/trans/:transId/chapters/:chapterId')
+  app.route('/catalog/books/:bookId/trans/:transId/chapters/:chapterId')
     .get(cors(), books.getChapter);
 };

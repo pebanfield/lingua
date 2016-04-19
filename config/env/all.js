@@ -6,7 +6,7 @@ module.exports = {
 		description: 'A book translation application.',
 		keywords: 'Node Express / Angular JS application with Ionic mobile client.'
 	},
-	port: process.env.PORT || 3000,
+	port: process.env.PORT || 8080,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
