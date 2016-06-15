@@ -1,4 +1,12 @@
-[{"id": "Cinq_Semaines_En_Ballon",
-  "lang": "french",
-  "url": "/books/a1/trans/Cinq_Semaines_En_Ballon"},
- {"id": "Five_Weeks_in_a_Balloon", "lang": "english", "url": "/books/a1/trans/Five_Weeks_in_a_Balloon"}]
+{"id": "a1",
+  "url": "/books/a1",
+  "summaries": [{"id": "Cinq_Semaines_En_Ballon",
+    "url": "/books/a1/volumes/Cinq_Semaines_En_Ballon",
+    "title": "Cinq Semaines En Ballon",
+    "language":"french",
+    "description": "d"},
+    {"id": "Five_Weeks_in_a_Balloon",
+      "url": "/books/a1/volumes/Five_Weeks_in_a_Balloon",
+      "title": "Five Weeks in a Balloon",
+      "language":"english",
+      "description": "d"}]}

@@ -1,70 +1,22 @@
 {
-  "translation": {
-    "title": "Five Weeks in a Balloon",
+  "title": "Five Weeks in a Balloon",
     "author": "Jules Verne",
     "id": "Five_Weeks_in_a_Balloon",
     "language": "english",
-    "copyrigth": "publicdomain",
+    "copyright": "publicdomain",
     "year": 1869,
     "translation": true,
     "translator": "William Lackland",
     "chapters": [
       {
         "title": "CHAPTER FIRST.",
-        "id": "c1"
+        "id": "c1",
+        "description": ""
       },
       {
         "title": "CHAPTER SECOND.",
         "id": "c2",
-        "description": "The Article in the Daily Telegraph.--War between the Scientific Journals.-- Mr. Petermann backs his Friend Dr. Ferguson.--Reply of the Savant Koner. --Bets made.--Sundry Propositions offered to the Doctor.",
-        "paragraphs": [
-          {
-            "body": ""
-          },
-          {
-            "body": ""
-          }
-        ]
-      },
-      {
-        "title": "CHAPTER THIRD.",
-        "id": "c3",
-        "description": "The Doctor's Friend.--The Origin of their Friendship.--Dick Kennedy at London. --An unexpected but not very consoling Proposal.--A Proverb by no means cheering.--A few Names from the African Martyrology.--The Advantages of a Balloon.--Dr. Ferguson's Secret.",
-        "paragraphs": [
-          {
-            "body": ""
-          },
-          {
-            "body": ""
-          }
-        ]
-      },
-      {
-        "title": "CHAPTER FOURTH.",
-        "id": "c4",
-        "description": "African Explorations.--Barth, Richardson, Overweg, Werne, Brun-Rollet, Penney, Andrea, Debono, Miani, Guillaume Lejean, Brace, Krapf and Rebmann, Maizan, Roscher, Burton and Speke.",
-        "paragraphs": [
-          {
-            "body": ""
-          },
-          {
-            "body": ""
-          }
-        ]
-      },
-      {
-        "title": "CHAPTER FIFTH.",
-        "id": "c5",
-        "description": "African Explorations.--Barth, Richardson, Overweg, Werne, Brun-Rollet, Penney, Andrea, Debono, Miani, Guillaume Lejean, Brace, Krapf and Rebmann, Maizan, Roscher, Burton and Speke.",
-        "paragraphs": [
-          {
-            "body": ""
-          },
-          {
-            "body": ""
-          }
-        ]
+        "description": "The Article in the Daily Telegraph.--War between the Scientific Journals.-- Mr. Petermann backs his Friend Dr. Ferguson.--Reply of the Savant Koner. --Bets made.--Sundry Propositions offered to the Doctor."
       }
     ]
-  }
 }

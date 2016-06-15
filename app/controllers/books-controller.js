@@ -68,12 +68,12 @@ exports.getBook = function(req, res) {
   }
 };
 
-var loadTranslation = function(bookId, transId){
+var loadVolume = function(bookId, volumeId){
 
   var deferred = Q.defer();
 
   var filePath =
-    'books/' + bookId + '/' + transId + '/toc.json';
+    'books/' + bookId + '/' + volumeId + '/toc.json';
   filePath = path.resolve(filePath);
 
   fs.readFile(filePath, "utf-8", function (error, text) {
@@ -87,13 +87,13 @@ var loadTranslation = function(bookId, transId){
   return deferred.promise;
 };
 
-exports.getTranslation = function(req, res) {
+exports.getVolume = function(req, res) {
 
   var bookId = req.params.bookId;
-  var transId = req.params.transId;
+  var volumeId = req.params.volumeId;
 
-  if(bookId && transId){
-    loadTranslation(bookId, transId).then(function(result){
+  if(bookId && volumeId){
+    loadVolume(bookId, volumeId).then(function(result){
         res.send(200, result);
       },
       function(error){
@@ -105,19 +105,19 @@ exports.getTranslation = function(req, res) {
 
 };
 
-var loadChapter = function(bookId, transId, chapterId){
+var loadChapter = function(bookId, volumeId, chapterId){
 
   var deferred = Q.defer();
 
   var filePath =
-    'books/' + bookId + '/' + transId + '/' + chapterId + '.json';
+    'books/' + bookId + '/' + volumeId + '/' + chapterId + '.json';
   filePath = path.resolve(filePath);
 
-  fs.readFile(filePath, "utf-8", function (error, text) {
+  fs.readFile(filePath, "utf-8", function (error, volume) {
     if (error) {
       deferred.reject(new Error(error));
     } else {
-      deferred.resolve(text);
+      deferred.resolve(volume);
     }
   });
 
@@ -127,11 +127,11 @@ var loadChapter = function(bookId, transId, chapterId){
 exports.getChapter = function(req, res) {
 
   var bookId = req.params.bookId;
-  var transId = req.params.transId;
+  var volumeId = req.params.volumeId;
   var chapterId = req.params.chapterId;
 
-  if(bookId && transId && chapterId){
-    loadChapter(bookId, transId, chapterId).then(function(result){
+  if(bookId && volumeId && chapterId){
+    loadChapter(bookId, volumeId, chapterId).then(function(result){
         res.send(200, result);
       },
       function(error){

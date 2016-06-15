@@ -9,8 +9,8 @@ module.exports = function(app) {
     .get(cors(), books.getCatalog);
   app.route('/catalog/books/:id')
     .get(cors(), books.getBook);
-  app.route('/catalog/books/:bookId/trans/:transId')
-    .get(cors(), books.getTranslation);
-  app.route('/catalog/books/:bookId/trans/:transId/chapters/:chapterId')
+  app.route('/catalog/books/:bookId/volumes/:volumeId')
+    .get(cors(), books.getVolume);
+  app.route('/catalog/books/:bookId/volumes/:volumeId/chapters/:chapterId')
     .get(cors(), books.getChapter);
 };

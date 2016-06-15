@@ -1,11 +1,14 @@
-{"books":[{"id": "a1",
+{ "title": "Lingua Reader",
+  "books":[{"id": "a1",
   "url": "/books/a1",
-  "texts": [{"id": "Cinq_Semaines_En_Ballon",
+  "summaries": [{"id": "Cinq_Semaines_En_Ballon",
+    "url": "/books/a1/volumes/Cinq_Semaines_En_Ballon",
     "title": "Cinq Semaines En Ballon",
-    "lang":"french",
-    "description": ""},
+    "language":"french",
+    "description": "d"},
     {"id": "Five_Weeks_in_a_Balloon",
+      "url": "/books/a1/volumes/Five_Weeks_in_a_Balloon",
       "title": "Five Weeks in a Balloon",
-      "lang":"english",
-      "description": ""}]}]
+      "language":"english",
+      "description": "d"}]}]
 }
