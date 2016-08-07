@@ -1,5 +1,7 @@
 {"id": "a1",
   "url": "/books/a1",
+  "image": "fiveweeks",
+  "thumb": "fiveweeks-thumb",
   "summaries": [{"id": "Cinq_Semaines_En_Ballon",
     "url": "/books/a1/volumes/Cinq_Semaines_En_Ballon",
     "title": "Cinq Semaines En Ballon",
